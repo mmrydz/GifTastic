@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Funny TV</title>
+
+  <!-- CSS reset -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <!-- Bootstrap CSS and script source -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+  <!-- my CSS customization -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- link to the jQuery library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="maincontainer">
+    <div class="container">
+      <div class="row" id="header">
+        <h1>Funny TV!</h1>
+      </div>
+      
+      <div class="row" id="buttonsandgifs">
+        <!-- Rendered Buttons will get Dumped Here  -->
+        <div id="buttons-view"></div>
+
+          <form id="topic-form">
+    
+            <input type="text" id="topic-input">
+
+            <!-- Button triggers new topic to be added -->
+            <input id="add-topic" type="submit" value="Add one to the list!">
+          </form>
+          <div class="row" id="caveat">
+              <p>Note: For any search, you're only going to see g-rated gifs -- so you may as well keep it classy!</p>
+            </div>
+        </div>
+      <!-- Gifs will Get Dumped Here -->
+        <div id="gifs-appear-here"></div>
+    </div>
+  </div>  
+  <script type="text/javascript" src="assets\javascript\app.js"></script>
+  
+</body>
+
+</html>

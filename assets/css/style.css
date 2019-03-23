@@ -1,0 +1,38 @@
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
+
+body{
+  background: url("../images/laughing_background.JPG");
+  background-repeat: repeat;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  border: solid red 4px;
+}
+
+#header {
+  font-family: fantasy;
+  color: red;
+  margin: 10px;
+}
+
+#caveat {
+  color: red;
+  font-weight: bold;
+  margin: 10px;
+}
+#buttonsandgifs {
+  align-content: center;
+}
+
+#gifs-appear-here {
+  border-top: dashed red 2px;
+  display: inline-block;
+  margin: 2px;
+}

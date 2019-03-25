@@ -31,8 +31,12 @@ body{
   align-content: center;
 }
 
+#card {
+  border: 2px;
+  color: red;
+}
+
 #gifs-appear-here {
-  border-top: dashed red 2px;
   display: inline-block;
   margin: 2px;
 }
